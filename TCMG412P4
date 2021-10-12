@@ -11,4 +11,5 @@ request.urlretrieve(remote_url, local_file)
 total_log = 0
 for line in open('Log_file_download.txt'): total_log +=1
 print()
-print(
+print('There were', total_log, 'requests made in the time period represented by the log.')
+
